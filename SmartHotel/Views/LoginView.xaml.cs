@@ -10,6 +10,7 @@ namespace SmartHotel.Views
         public LoginView()
         {
             InitializeComponent();
+            NavigationPage.SetHasNavigationBar(this, false);
         }
 
         void Handle_Clicked(object sender, System.EventArgs e)
@@ -20,11 +21,12 @@ namespace SmartHotel.Views
 
             if(string.IsNullOrEmpty(userName) || string.IsNullOrEmpty(passWord))
             {
-                DisplayAlert("Alert", "You are not enterd username or password", "OK");                
+                DisplayAlert("Alert", "You are not enter username or password", "OK");                
             }
             else
             {
-                DisplayAlert("Alert", "You are log in", "OK");  
+                //Navigation.PushAsync(new MainView()); 
+                App.Current.MainPage = new MainView();
             }
         }
     }

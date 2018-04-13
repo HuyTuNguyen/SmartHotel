@@ -8,7 +8,10 @@ namespace SmartHotel
         {
             InitializeComponent();
 
-            MainPage = new SmartHotel.Views.LoginView(); 
+            //
+            NavigationPage.SetHasNavigationBar(this, false);
+
+            MainPage = new NavigationPage(new SmartHotel.Views.LoginView()); 
         }
 
         protected override void OnStart()

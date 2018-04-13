@@ -11,7 +11,8 @@
 namespace SmartHotel.Views {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("/Users/nguyenhuytu/Projects/SmartHotel/SmartHotel/Views/LoginView.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("/Users/nguyenhuytu/Downloads/Project/Xamarin/Git/SmartHotel/SmartHotel/Views/Logi" +
+        "nView.xaml")]
     public partial class LoginView : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]

@@ -1,10 +1,11 @@
 ﻿<Properties StartupConfiguration="{547C52EB-141C-434D-B231-30683CADA233}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="SmartHotel/Views/LoginView.xaml.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="SmartHotel/Views/MenuView.xaml.cs">
     <Files>
-      <File FileName="SmartHotel/App.xaml" Line="7" Column="1" />
-      <File FileName="SmartHotel/Views/LoginView.xaml" Line="39" Column="15" />
-      <File FileName="SmartHotel/Views/LoginView.xaml.cs" Line="18" Column="13" />
-      <File FileName="SmartHotel/App.xaml.cs" Line="11" Column="58" />
+      <File FileName="SmartHotel/Views/LoginView.xaml" Line="4" Column="5" />
+      <File FileName="SmartHotel/Views/LoginView.xaml.cs" Line="6" Column="27" />
+      <File FileName="SmartHotel/Views/MenuView.xaml" Line="102" Column="55" />
+      <File FileName="SmartHotel/Views/HomeView.xaml.cs" Line="13" Column="10" />
+      <File FileName="SmartHotel/Views/MenuView.xaml.cs" Line="68" Column="64" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
@@ -12,7 +13,7 @@
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.SmartHotel.Droid PreferredExecutionTarget="Android.Android_Accelerated_Nougat" AndroidDesignerPreferredTheme="Theme.DeviceDefault.NoActionBar.Fullscreen" />
+  <MonoDevelop.Ide.ItemProperties.SmartHotel.Droid PreferredExecutionTarget="Android.05eb9ca20acdd1b5" AndroidDesignerPreferredTheme="Theme.DeviceDefault.NoActionBar.Fullscreen" />
   <MultiItemStartupConfigurations />
   <DisabledProjects>
     <String>iOS/SmartHotel.iOS.csproj</String>
