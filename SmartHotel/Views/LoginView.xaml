@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="SmartHotel.Views.LoginView">
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="SmartHotel.Views.LoginView" xmlns:converters="clr-namespace:SmartHotel.Converter">
 
     <ContentPage.Resources>
         <ResourceDictionary>
+            <converters:PasswordStrengthToColorConverter x:Key="PasswordStrengthToColorConverter"/>
             <Color x:Key="textColor">#ffffff</Color>
             <Color x:Key="placeHolderColor">#cccccc</Color>
             <Style x:Key="MyTextStyle" TargetType="Entry">
@@ -28,12 +29,22 @@
             </Grid.RowDefinitions>
             <Image Source="logo_splash" HorizontalOptions="Center" VerticalOptions="Center" />
             <Label Grid.Row="1" Text="Username" TextColor="White" />
-            <Entry x:Name="txtUserName" Grid.Row="2" Placeholder="Username" Style="{StaticResource MyTextStyle}" />
+            <Entry x:Name="txtUserName" Grid.Row="2" Placeholder="Username" Style="{StaticResource MyTextStyle}" Text="{Binding Username}" />
             <Label Grid.Row="3" Text="Password" TextColor="White" />
-            <Entry x:Name="txtPassword" Grid.Row="4" Placeholder="Password" IsPassword="true" Style="{StaticResource MyTextStyle}" />
+            <StackLayout Grid.Row="4">
+                <Entry x:Name="txtPassword" Placeholder="Password" IsPassword="true" Style="{StaticResource MyTextStyle}" Text="{Binding Password}" />
+                <Label Text="{Binding PasswordStrength}" TextColor="{Binding PasswordStrength, Converter={StaticResource PasswordStrengthToColorConverter}}" FontSize="20"/>
+            </StackLayout>
             <Label Grid.Row="5" Text="Forgot password?" HorizontalOptions="End" TextColor="White" />
         </Grid>
         <Button Grid.Row="1" Text="Login" Margin="30,-30,30,0" HeightRequest="60" VerticalOptions="Start" Clicked="Handle_Clicked" />
+
+        <Grid Grid.Row="1">
+            <StackLayout VerticalOptions="Center">
+                <Label Text="ABC" Rotation="{Binding Path = Value, Source={x:Reference slider}}" FontSize="30" HorizontalOptions="Center" />
+                <Slider Maximum="360" Minimum="0" x:Name="slider"/>
+            </StackLayout>
+        </Grid>
     </Grid>
     
 </ContentPage>

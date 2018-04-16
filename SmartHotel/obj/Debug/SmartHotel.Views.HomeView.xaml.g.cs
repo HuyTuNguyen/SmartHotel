@@ -11,8 +11,8 @@
 namespace SmartHotel.Views {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("/Users/nguyenhuytu/Downloads/Project/Xamarin/Git/SmartHotel/SmartHotel/Views/Home" +
-        "View.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("/Users/nguyenhuytu/Downloads/Projects/Xamarin/Git/SmartHotel/SmartHotel/Views/Hom" +
+        "eView.xaml")]
     public partial class HomeView : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]

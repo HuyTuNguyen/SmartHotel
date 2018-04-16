@@ -11,8 +11,8 @@
 namespace SmartHotel.Views {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("/Users/nguyenhuytu/Downloads/Project/Xamarin/Git/SmartHotel/SmartHotel/Views/Conc" +
-        "iergeView.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("/Users/nguyenhuytu/Downloads/Projects/Xamarin/Git/SmartHotel/SmartHotel/Views/Con" +
+        "ciergeView.xaml")]
     public partial class ConciergeView : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]

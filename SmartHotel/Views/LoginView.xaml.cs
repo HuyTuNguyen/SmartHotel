@@ -1,16 +1,27 @@
 ﻿using System;
 using System.Collections.Generic;
-
+using SmartHotel.Models;
 using Xamarin.Forms;
 
 namespace SmartHotel.Views
 {
     public partial class LoginView : ContentPage
     {
+        private LoginViewModel LoginViewModel { get; }
+
         public LoginView()
         {
+            //
             InitializeComponent();
             NavigationPage.SetHasNavigationBar(this, false);
+
+            //
+            LoginViewModel = new LoginViewModel();
+
+            BindingContext = LoginViewModel;
+
+            LoginViewModel.Username = "TuNH";
+
         }
 
         void Handle_Clicked(object sender, System.EventArgs e)

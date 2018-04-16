@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-
+using SmartHotel.Models;
 using Xamarin.Forms;
 
 namespace SmartHotel.Views
@@ -10,6 +10,8 @@ namespace SmartHotel.Views
         public MenuView()
         {
             InitializeComponent();
+
+            BindingContext = new MenuViewModel();
         }
 
         private void OnBookingMenuTapped(object sender, EventArgs args)
@@ -75,6 +77,15 @@ namespace SmartHotel.Views
         private void OnLogOutMenuTapped(object sender, EventArgs args)
         {
             Application.Current.MainPage = new LoginView();
+        }
+
+        void Handle_ItemSelected(object sender, Xamarin.Forms.SelectedItemChangedEventArgs e)
+        {
+            if (MyListView.SelectedItem == null)
+                return;
+            //TODO: Navigate
+
+            MyListView.SelectedItem = null;
         }
     }
 }

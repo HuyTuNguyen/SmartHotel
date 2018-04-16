@@ -11,8 +11,8 @@
 namespace SmartHotel.Views {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("/Users/nguyenhuytu/Downloads/Project/Xamarin/Git/SmartHotel/SmartHotel/Views/Main" +
-        "View.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("/Users/nguyenhuytu/Downloads/Projects/Xamarin/Git/SmartHotel/SmartHotel/Views/Mai" +
+        "nView.xaml")]
     public partial class MainView : global::Xamarin.Forms.MasterDetailPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]

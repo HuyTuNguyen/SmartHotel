@@ -11,13 +11,17 @@
 namespace SmartHotel.Views {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("/Users/nguyenhuytu/Downloads/Project/Xamarin/Git/SmartHotel/SmartHotel/Views/Menu" +
-        "View.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("/Users/nguyenhuytu/Downloads/Projects/Xamarin/Git/SmartHotel/SmartHotel/Views/Men" +
+        "uView.xaml")]
     public partial class MenuView : global::Xamarin.Forms.ContentPage {
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.ListView MyListView;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private void InitializeComponent() {
             global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(MenuView));
+            MyListView = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.ListView>(this, "MyListView");
         }
     }
 }

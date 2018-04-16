@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="SmartHotel.Views.MenuView">
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="SmartHotel.Views.MenuView" xmlns:templates="clr-namespace:SmartHotel.Views.Templates">
     <Grid RowSpacing="20" ColumnSpacing="0">
         <Grid.RowDefinitions>
             <RowDefinition Height="3*"/>
@@ -8,101 +8,14 @@
         <Image Grid.Row="0" Source="avatar" Aspect="Fill"/>
         <BoxView Grid.Row="0" BackgroundColor="Black" Opacity="0.6"/>
         <Label Grid.Row="0" Text="Hello, John" Margin="0,20" VerticalOptions="End" HorizontalOptions="Center" TextColor="White"/>
-        <ScrollView Grid.Row="1">
-            <Grid Grid.Row="1" RowSpacing="30">
-                <Grid.RowDefinitions>
-                    <RowDefinition Height="Auto"/>
-                    <RowDefinition Height="Auto"/>
-                    <RowDefinition Height="Auto"/>
-                    <RowDefinition Height="Auto"/>
-                    <RowDefinition Height="Auto"/>
-                </Grid.RowDefinitions>
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="3*"/>
-                    <ColumnDefinition Width="7*"/>
-                </Grid.ColumnDefinitions>
-
-                <Image Grid.Row="0"
-                       Grid.Column="0" 
-                       Source="ic_bed" 
-                       HorizontalOptions="End" 
-                       VerticalOptions="Center" Aspect="AspectFill" />
-
-                <Label Grid.Row="0" 
-                       Grid.Column="1" 
-                       Text="Book a room" 
-                       TextColor="Black" 
-                       HorizontalOptions="Start" 
-                       VerticalOptions="Center">
-                    <Label.GestureRecognizers>
-                        <TapGestureRecognizer Tapped="OnBookingMenuTapped"/>
-                    </Label.GestureRecognizers>
-                </Label>
-                    
-                <Image Grid.Row="1"
-                       Grid.Column="0" 
-                       Source="ic_key" 
-                       HorizontalOptions="End" 
-                       VerticalOptions="Center" Aspect="AspectFill" />
-                <Label Grid.Row="1" 
-                       Grid.Column="1" 
-                       Text="My Room" 
-                       TextColor="Black" 
-                       HorizontalOptions="Start" 
-                       VerticalOptions="Center">
-                    <Label.GestureRecognizers>
-                        <TapGestureRecognizer Tapped="OnMyRoomMenuTapped"/>
-                    </Label.GestureRecognizers>
-                </Label>
-
-                <Image Grid.Row="2"
-                       Grid.Column="0" 
-                       Source="ic_beach" 
-                       HorizontalOptions="End" 
-                       VerticalOptions="Center" Aspect="AspectFill" />
-                <Label Grid.Row="2" 
-                       Grid.Column="1" 
-                       Text="Suggestions" 
-                       TextColor="Black" 
-                       HorizontalOptions="Start" 
-                       VerticalOptions="Center">
-                    <Label.GestureRecognizers>
-                        <TapGestureRecognizer Tapped="OnSuggesstionsMenuTapped"/>
-                    </Label.GestureRecognizers>
-                </Label>
-
-                <Image Grid.Row="3"
-                       Grid.Column="0" 
-                       Source="ic_bot" 
-                       HorizontalOptions="End" 
-                       VerticalOptions="Center" Aspect="AspectFill" />
-                <Label Grid.Row="3" 
-                       Grid.Column="1" 
-                       Text="Concierge" 
-                       TextColor="Black" 
-                       HorizontalOptions="Start" 
-                       VerticalOptions="Center">
-                    <Label.GestureRecognizers>
-                        <TapGestureRecognizer Tapped="OnConciergeMenuTapped"/>
-                    </Label.GestureRecognizers>
-                </Label>
-
-                <Image Grid.Row="4"
-                       Grid.Column="0" 
-                       Source="ic_logout" 
-                       HorizontalOptions="End" 
-                       VerticalOptions="Center" Aspect="AspectFill" />
-                <Label Grid.Row="4" 
-                       Grid.Column="1" 
-                       Text="Logout" 
-                       TextColor="Black" 
-                       HorizontalOptions="Start" 
-                       VerticalOptions="Center">
-                    <Label.GestureRecognizers>
-                        <TapGestureRecognizer Tapped="OnLogOutMenuTapped"/>
-                    </Label.GestureRecognizers>
-                </Label>
-            </Grid>
-        </ScrollView>
+        <ListView x:Name="MyListView" Grid.Row="1" ItemsSource="{Binding Menus}" RowHeight="60" ItemSelected="Handle_ItemSelected" SeparatorVisibility="None">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <templates:MenuItemTemplate/>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
     </Grid>
 </ContentPage>
