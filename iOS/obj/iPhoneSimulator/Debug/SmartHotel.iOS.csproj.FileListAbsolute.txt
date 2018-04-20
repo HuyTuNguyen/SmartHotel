@@ -1,5 +1,6 @@
 /Users/nguyenhuytu/Downloads/Projects/Xamarin/Git/SmartHotel/iOS/bin/iPhoneSimulator/Debug/SmartHotel.iOS.exe
 /Users/nguyenhuytu/Downloads/Projects/Xamarin/Git/SmartHotel/iOS/bin/iPhoneSimulator/Debug/SmartHotel.iOS.pdb
+/Users/nguyenhuytu/Downloads/Projects/Xamarin/Git/SmartHotel/iOS/bin/iPhoneSimulator/Debug/Autofac.dll
 /Users/nguyenhuytu/Downloads/Projects/Xamarin/Git/SmartHotel/iOS/bin/iPhoneSimulator/Debug/SmartHotel.dll
 /Users/nguyenhuytu/Downloads/Projects/Xamarin/Git/SmartHotel/iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Core.dll
 /Users/nguyenhuytu/Downloads/Projects/Xamarin/Git/SmartHotel/iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Platform.dll
@@ -13,6 +14,7 @@
 /Users/nguyenhuytu/Downloads/Projects/Xamarin/Git/SmartHotel/iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Xaml.pdb
 /Users/nguyenhuytu/Downloads/Projects/Xamarin/Git/SmartHotel/iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Xaml.dll.mdb
 /Users/nguyenhuytu/Downloads/Projects/Xamarin/Git/SmartHotel/iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Xaml.xml
+/Users/nguyenhuytu/Downloads/Projects/Xamarin/Git/SmartHotel/iOS/bin/iPhoneSimulator/Debug/Autofac.xml
 /Users/nguyenhuytu/Downloads/Projects/Xamarin/Git/SmartHotel/iOS/bin/iPhoneSimulator/Debug/ar/Xamarin.Forms.Platform.iOS.resources.dll
 /Users/nguyenhuytu/Downloads/Projects/Xamarin/Git/SmartHotel/iOS/bin/iPhoneSimulator/Debug/ca/Xamarin.Forms.Platform.iOS.resources.dll
 /Users/nguyenhuytu/Downloads/Projects/Xamarin/Git/SmartHotel/iOS/bin/iPhoneSimulator/Debug/cs/Xamarin.Forms.Platform.iOS.resources.dll
@@ -47,13 +49,13 @@
 /Users/nguyenhuytu/Downloads/Projects/Xamarin/Git/SmartHotel/iOS/bin/iPhoneSimulator/Debug/zh-HK/Xamarin.Forms.Platform.iOS.resources.dll
 /Users/nguyenhuytu/Downloads/Projects/Xamarin/Git/SmartHotel/iOS/bin/iPhoneSimulator/Debug/zh-Hans/Xamarin.Forms.Platform.iOS.resources.dll
 /Users/nguyenhuytu/Downloads/Projects/Xamarin/Git/SmartHotel/iOS/bin/iPhoneSimulator/Debug/zh-Hant/Xamarin.Forms.Platform.iOS.resources.dll
-/Users/nguyenhuytu/Downloads/Projects/Xamarin/Git/SmartHotel/iOS/obj/iPhoneSimulator/Debug/SmartHotel.iOS.csprojResolveAssemblyReference.cache
-/Users/nguyenhuytu/Downloads/Projects/Xamarin/Git/SmartHotel/iOS/obj/iPhoneSimulator/Debug/SmartHotel.iOS.csproj.CoreCompileInputs.cache
-/Users/nguyenhuytu/Downloads/Projects/Xamarin/Git/SmartHotel/iOS/obj/iPhoneSimulator/Debug/SmartHotel.iOS.exe
-/Users/nguyenhuytu/Downloads/Projects/Xamarin/Git/SmartHotel/iOS/obj/iPhoneSimulator/Debug/SmartHotel.iOS.pdb
 /Users/nguyenhuytu/Downloads/Projects/Xamarin/Git/SmartHotel/iOS/obj/iPhoneSimulator/Debug/ibtool/_BundleResourceWithLogicalName.items
 /Users/nguyenhuytu/Downloads/Projects/Xamarin/Git/SmartHotel/iOS/obj/iPhoneSimulator/Debug/actool/_PartialAppManifest.items
 /Users/nguyenhuytu/Downloads/Projects/Xamarin/Git/SmartHotel/iOS/obj/iPhoneSimulator/Debug/actool/_BundleResourceWithLogicalName.items
 /Users/nguyenhuytu/Downloads/Projects/Xamarin/Git/SmartHotel/iOS/obj/iPhoneSimulator/Debug/coremlc/_PartialAppManifest.items
 /Users/nguyenhuytu/Downloads/Projects/Xamarin/Git/SmartHotel/iOS/obj/iPhoneSimulator/Debug/coremlc/_BundleResourceWithLogicalName.items
 /Users/nguyenhuytu/Downloads/Projects/Xamarin/Git/SmartHotel/iOS/obj/iPhoneSimulator/Debug/optimized/
+/Users/nguyenhuytu/Downloads/Projects/Xamarin/Git/SmartHotel/iOS/obj/iPhoneSimulator/Debug/SmartHotel.iOS.csprojResolveAssemblyReference.cache
+/Users/nguyenhuytu/Downloads/Projects/Xamarin/Git/SmartHotel/iOS/obj/iPhoneSimulator/Debug/SmartHotel.iOS.csproj.CoreCompileInputs.cache
+/Users/nguyenhuytu/Downloads/Projects/Xamarin/Git/SmartHotel/iOS/obj/iPhoneSimulator/Debug/SmartHotel.iOS.exe
+/Users/nguyenhuytu/Downloads/Projects/Xamarin/Git/SmartHotel/iOS/obj/iPhoneSimulator/Debug/SmartHotel.iOS.pdb

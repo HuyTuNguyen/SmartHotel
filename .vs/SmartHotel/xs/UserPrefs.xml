@@ -1,11 +1,11 @@
 ﻿<Properties StartupConfiguration="{547C52EB-141C-434D-B231-30683CADA233}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="SmartHotel/Views/MenuView.xaml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="SmartHotel/App.xaml.cs">
     <Files>
-      <File FileName="SmartHotel/Views/LoginView.xaml" Line="40" Column="134" />
-      <File FileName="SmartHotel/Views/MenuView.xaml" Line="15" Column="25" />
-      <File FileName="SmartHotel/Models/MenuViewModel.cs" Line="26" Column="68" />
-      <File FileName="SmartHotel/Views/MenuView.xaml.cs" Line="88" Column="44" />
-      <File FileName="SmartHotel/Views/Templates/MenuItemTemplate.xaml" Line="6" Column="66" />
+      <File FileName="SmartHotel/ServiceLocator.cs" Line="26" Column="90" />
+      <File FileName="SmartHotel/ViewModels/Base/ViewModelBase.cs" Line="32" Column="67" />
+      <File FileName="SmartHotel/Services/Navigation/NavigationService.cs" Line="59" Column="36" />
+      <File FileName="SmartHotel/Services/Navigation/NavigationService.Mappings.cs" Line="17" Column="30" />
+      <File FileName="SmartHotel/App.xaml.cs" Line="16" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />

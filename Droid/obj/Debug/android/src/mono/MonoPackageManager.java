@@ -107,6 +107,7 @@ class MonoPackageManager_Resources {
 	public static final String[] Assemblies = new String[]{
 		/* We need to ensure that "SmartHotel.Droid.dll" comes first in this list. */
 		"SmartHotel.Droid.dll",
+		"Autofac.dll",
 		"FormsViewGroup.dll",
 		"SmartHotel.dll",
 		"Xamarin.Android.Support.Animated.Vector.Drawable.dll",

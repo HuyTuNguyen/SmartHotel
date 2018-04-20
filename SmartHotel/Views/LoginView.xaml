@@ -31,20 +31,12 @@
             <Label Grid.Row="1" Text="Username" TextColor="White" />
             <Entry x:Name="txtUserName" Grid.Row="2" Placeholder="Username" Style="{StaticResource MyTextStyle}" Text="{Binding Username}" />
             <Label Grid.Row="3" Text="Password" TextColor="White" />
-            <StackLayout Grid.Row="4">
-                <Entry x:Name="txtPassword" Placeholder="Password" IsPassword="true" Style="{StaticResource MyTextStyle}" Text="{Binding Password}" />
-                <Label Text="{Binding PasswordStrength}" TextColor="{Binding PasswordStrength, Converter={StaticResource PasswordStrengthToColorConverter}}" FontSize="20"/>
-            </StackLayout>
+            <Entry Grid.Row="4" x:Name="txtPassword" Placeholder="Password" IsPassword="true" Style="{StaticResource MyTextStyle}" Text="{Binding Password}" />
             <Label Grid.Row="5" Text="Forgot password?" HorizontalOptions="End" TextColor="White" />
         </Grid>
-        <Button Grid.Row="1" Text="Login" Margin="30,-30,30,0" HeightRequest="60" VerticalOptions="Start" Clicked="Handle_Clicked" />
+        <Button Grid.Row="1" Text="Login" Margin="30,-30,30,0" HeightRequest="60" VerticalOptions="Start" Command="{Binding LoginCommand}" />
 
-        <Grid Grid.Row="1">
-            <StackLayout VerticalOptions="Center">
-                <Label Text="ABC" Rotation="{Binding Path = Value, Source={x:Reference slider}}" FontSize="30" HorizontalOptions="Center" />
-                <Slider Maximum="360" Minimum="0" x:Name="slider"/>
-            </StackLayout>
-        </Grid>
+
     </Grid>
     
 </ContentPage>

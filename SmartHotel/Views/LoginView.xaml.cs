@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-using SmartHotel.Models;
+using SmartHotel.ViewModels;
 using Xamarin.Forms;
 
 namespace SmartHotel.Views
@@ -15,30 +15,23 @@ namespace SmartHotel.Views
             InitializeComponent();
             NavigationPage.SetHasNavigationBar(this, false);
 
-            //
-            LoginViewModel = new LoginViewModel();
-
-            BindingContext = LoginViewModel;
-
-            LoginViewModel.Username = "TuNH";
-
         }
 
-        void Handle_Clicked(object sender, System.EventArgs e)
-        {
+        //void Handle_Clicked(object sender, System.EventArgs e)
+        //{
 
-            var userName = txtUserName.Text;
-            var passWord = txtPassword.Text;
+        //    var userName = txtUserName.Text;
+        //    var passWord = txtPassword.Text;
 
-            if(string.IsNullOrEmpty(userName) || string.IsNullOrEmpty(passWord))
-            {
-                DisplayAlert("Alert", "You are not enter username or password", "OK");                
-            }
-            else
-            {
-                //Navigation.PushAsync(new MainView()); 
-                App.Current.MainPage = new MainView();
-            }
-        }
+        //    if(string.IsNullOrEmpty(userName) || string.IsNullOrEmpty(passWord))
+        //    {
+        //        DisplayAlert("Alert", "You are not enter username or password", "OK");                
+        //    }
+        //    else
+        //    {
+        //        //Navigation.PushAsync(new MainView()); 
+        //        App.Current.MainPage = new MainView();
+        //    }
+        //}
     }
 }

@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-using SmartHotel.Models;
+using SmartHotel.ViewModels;
 using Xamarin.Forms;
 
 namespace SmartHotel.Views

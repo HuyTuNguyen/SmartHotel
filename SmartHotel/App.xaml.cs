@@ -1,4 +1,6 @@
-﻿using Xamarin.Forms;
+﻿using SmartHotel.Services.Navigation;
+using SmartHotel.ViewModels;
+using Xamarin.Forms;
 
 namespace SmartHotel
 {
@@ -11,7 +13,9 @@ namespace SmartHotel
             //
             NavigationPage.SetHasNavigationBar(this, false);
 
-            MainPage = new NavigationPage(new SmartHotel.Views.LoginView()); 
+            ServiceLocator.Instance.Build();
+
+            ServiceLocator.Instance.Resolve<INavigationService>().NavigateToAsync<LoginViewModel>();
         }
 
         protected override void OnStart()

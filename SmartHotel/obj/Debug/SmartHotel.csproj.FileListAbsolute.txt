@@ -41,6 +41,8 @@
 /Users/nguyenhuytu/Downloads/Project/Xamarin/Git/SmartHotel/SmartHotel/obj/Debug/SmartHotel.Views.ConciergeView.xaml.g.cs
 /Users/nguyenhuytu/Downloads/Projects/Xamarin/Git/SmartHotel/SmartHotel/bin/Debug/SmartHotel.dll
 /Users/nguyenhuytu/Downloads/Projects/Xamarin/Git/SmartHotel/SmartHotel/bin/Debug/SmartHotel.pdb
+/Users/nguyenhuytu/Downloads/Projects/Xamarin/Git/SmartHotel/SmartHotel/bin/Debug/Autofac.dll
+/Users/nguyenhuytu/Downloads/Projects/Xamarin/Git/SmartHotel/SmartHotel/bin/Debug/System.Runtime.InteropServices.RuntimeInformation.dll
 /Users/nguyenhuytu/Downloads/Projects/Xamarin/Git/SmartHotel/SmartHotel/bin/Debug/Xamarin.Forms.Core.dll
 /Users/nguyenhuytu/Downloads/Projects/Xamarin/Git/SmartHotel/SmartHotel/bin/Debug/Xamarin.Forms.Platform.dll
 /Users/nguyenhuytu/Downloads/Projects/Xamarin/Git/SmartHotel/SmartHotel/bin/Debug/Xamarin.Forms.Xaml.dll
@@ -50,6 +52,7 @@
 /Users/nguyenhuytu/Downloads/Projects/Xamarin/Git/SmartHotel/SmartHotel/bin/Debug/Xamarin.Forms.Xaml.pdb
 /Users/nguyenhuytu/Downloads/Projects/Xamarin/Git/SmartHotel/SmartHotel/bin/Debug/Xamarin.Forms.Xaml.dll.mdb
 /Users/nguyenhuytu/Downloads/Projects/Xamarin/Git/SmartHotel/SmartHotel/bin/Debug/Xamarin.Forms.Xaml.xml
+/Users/nguyenhuytu/Downloads/Projects/Xamarin/Git/SmartHotel/SmartHotel/bin/Debug/Autofac.xml
 /Users/nguyenhuytu/Downloads/Projects/Xamarin/Git/SmartHotel/SmartHotel/obj/Debug/SmartHotel.csproj.CoreCompileInputs.cache
 /Users/nguyenhuytu/Downloads/Projects/Xamarin/Git/SmartHotel/SmartHotel/obj/Debug/SmartHotel.App.xaml.g.cs
 /Users/nguyenhuytu/Downloads/Projects/Xamarin/Git/SmartHotel/SmartHotel/obj/Debug/SmartHotel.Views.LoginView.xaml.g.cs
@@ -60,6 +63,6 @@
 /Users/nguyenhuytu/Downloads/Projects/Xamarin/Git/SmartHotel/SmartHotel/obj/Debug/SmartHotel.Views.MyRoomView.xaml.g.cs
 /Users/nguyenhuytu/Downloads/Projects/Xamarin/Git/SmartHotel/SmartHotel/obj/Debug/SmartHotel.Views.SuggesstionsView.xaml.g.cs
 /Users/nguyenhuytu/Downloads/Projects/Xamarin/Git/SmartHotel/SmartHotel/obj/Debug/SmartHotel.Views.ConciergeView.xaml.g.cs
+/Users/nguyenhuytu/Downloads/Projects/Xamarin/Git/SmartHotel/SmartHotel/obj/Debug/SmartHotel.Views.Templates.MenuItemTemplate.xaml.g.cs
 /Users/nguyenhuytu/Downloads/Projects/Xamarin/Git/SmartHotel/SmartHotel/obj/Debug/SmartHotel.dll
 /Users/nguyenhuytu/Downloads/Projects/Xamarin/Git/SmartHotel/SmartHotel/obj/Debug/SmartHotel.pdb
-/Users/nguyenhuytu/Downloads/Projects/Xamarin/Git/SmartHotel/SmartHotel/obj/Debug/SmartHotel.Views.Templates.MenuItemTemplate.xaml.g.cs

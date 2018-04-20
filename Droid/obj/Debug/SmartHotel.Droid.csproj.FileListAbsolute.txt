@@ -732,6 +732,7 @@
 /Users/nguyenhuytu/Downloads/Projects/Xamarin/Git/SmartHotel/Droid/bin/Debug/SmartHotel.Droid.pdb
 /Users/nguyenhuytu/Downloads/Projects/Xamarin/Git/SmartHotel/Droid/bin/Debug/com.fis.SmartHotel.apk
 /Users/nguyenhuytu/Downloads/Projects/Xamarin/Git/SmartHotel/Droid/bin/Debug/com.fis.SmartHotel-Signed.apk
+/Users/nguyenhuytu/Downloads/Projects/Xamarin/Git/SmartHotel/Droid/bin/Debug/Autofac.dll
 /Users/nguyenhuytu/Downloads/Projects/Xamarin/Git/SmartHotel/Droid/bin/Debug/FormsViewGroup.dll
 /Users/nguyenhuytu/Downloads/Projects/Xamarin/Git/SmartHotel/Droid/bin/Debug/SmartHotel.dll
 /Users/nguyenhuytu/Downloads/Projects/Xamarin/Git/SmartHotel/Droid/bin/Debug/Xamarin.Android.Support.Animated.Vector.Drawable.dll
@@ -765,6 +766,7 @@
 /Users/nguyenhuytu/Downloads/Projects/Xamarin/Git/SmartHotel/Droid/bin/Debug/Xamarin.Forms.Xaml.pdb
 /Users/nguyenhuytu/Downloads/Projects/Xamarin/Git/SmartHotel/Droid/bin/Debug/Xamarin.Forms.Xaml.dll.mdb
 /Users/nguyenhuytu/Downloads/Projects/Xamarin/Git/SmartHotel/Droid/bin/Debug/Xamarin.Forms.Xaml.xml
+/Users/nguyenhuytu/Downloads/Projects/Xamarin/Git/SmartHotel/Droid/bin/Debug/Autofac.xml
 /Users/nguyenhuytu/Downloads/Projects/Xamarin/Git/SmartHotel/Droid/obj/Debug/SmartHotel.Droid.csprojResolveAssemblyReference.cache
 /Users/nguyenhuytu/Downloads/Projects/Xamarin/Git/SmartHotel/Droid/obj/Debug/SmartHotel.Droid.csproj.CoreCompileInputs.cache
 /Users/nguyenhuytu/Downloads/Projects/Xamarin/Git/SmartHotel/Droid/obj/Debug/SmartHotel.Droid.dll
