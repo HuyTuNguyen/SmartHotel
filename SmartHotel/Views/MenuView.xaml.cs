@@ -10,82 +10,80 @@ namespace SmartHotel.Views
         public MenuView()
         {
             InitializeComponent();
-
-            BindingContext = new MenuViewModel();
         }
 
-        private void OnBookingMenuTapped(object sender, EventArgs args)
-        {
-            if (Application.Current.MainPage is MainView mainView)
-            {
+        //private void OnBookingMenuTapped(object sender, EventArgs args)
+        //{
+        //    if (Application.Current.MainPage is MainView mainView)
+        //    {
 
-                if (mainView.Detail is NavigationPage naviagationPage)
-                {
-                    //
-                    naviagationPage.PushAsync(new BookingView());
+        //        if (mainView.Detail is NavigationPage naviagationPage)
+        //        {
+        //            //
+        //            naviagationPage.PushAsync(new BookingView());
 
-                    mainView.IsPresented = false;
-                }
-            }
-        }
+        //            mainView.IsPresented = false;
+        //        }
+        //    }
+        //}
 
-        private void OnMyRoomMenuTapped(object sender, EventArgs args)
-        {
-            if (Application.Current.MainPage is MainView mainView)
-            {
+        //private void OnMyRoomMenuTapped(object sender, EventArgs args)
+        //{
+        //    if (Application.Current.MainPage is MainView mainView)
+        //    {
 
-                if (mainView.Detail is NavigationPage naviagationPage)
-                {
-                    //
-                    naviagationPage.PushAsync(new MyRoomView());
+        //        if (mainView.Detail is NavigationPage naviagationPage)
+        //        {
+        //            //
+        //            naviagationPage.PushAsync(new MyRoomView());
 
-                    mainView.IsPresented = false;
-                }
-            }
-        }
+        //            mainView.IsPresented = false;
+        //        }
+        //    }
+        //}
 
-        private void OnSuggesstionsMenuTapped(object sender, EventArgs args)
-        {
-            if (Application.Current.MainPage is MainView mainView)
-            {
+        //private void OnSuggesstionsMenuTapped(object sender, EventArgs args)
+        //{
+        //    if (Application.Current.MainPage is MainView mainView)
+        //    {
 
-                if (mainView.Detail is NavigationPage naviagationPage)
-                {
-                    //
-                    naviagationPage.PushAsync(new SuggesstionsView());
+        //        if (mainView.Detail is NavigationPage naviagationPage)
+        //        {
+        //            //
+        //            naviagationPage.PushAsync(new SuggesstionsView());
 
-                    mainView.IsPresented = false;
-                }
-            }
-        }
+        //            mainView.IsPresented = false;
+        //        }
+        //    }
+        //}
 
-        private void OnConciergeMenuTapped(object sender, EventArgs args)
-        {
-            if (Application.Current.MainPage is MainView mainView)
-            {
+        //private void OnConciergeMenuTapped(object sender, EventArgs args)
+        //{
+        //    if (Application.Current.MainPage is MainView mainView)
+        //    {
 
-                if (mainView.Detail is NavigationPage naviagationPage)
-                {
-                    //
-                    naviagationPage.PushAsync(new ConciergeView());
+        //        if (mainView.Detail is NavigationPage naviagationPage)
+        //        {
+        //            //
+        //            naviagationPage.PushAsync(new ConciergeView());
 
-                    mainView.IsPresented = false;
-                }
-            }
-        }
+        //            mainView.IsPresented = false;
+        //        }
+        //    }
+        //}
 
-        private void OnLogOutMenuTapped(object sender, EventArgs args)
-        {
-            Application.Current.MainPage = new LoginView();
-        }
+        //private void OnLogOutMenuTapped(object sender, EventArgs args)
+        //{
+        //    Application.Current.MainPage = new LoginView();
+        //}
 
-        void Handle_ItemSelected(object sender, Xamarin.Forms.SelectedItemChangedEventArgs e)
-        {
-            if (MyListView.SelectedItem == null)
-                return;
-            //TODO: Navigate
+        //void Handle_ItemSelected(object sender, Xamarin.Forms.SelectedItemChangedEventArgs e)
+        //{
+        //    if (MyListView.SelectedItem == null)
+        //        return;
+        //    //TODO: Navigate
 
-            MyListView.SelectedItem = null;
-        }
+        //    MyListView.SelectedItem = null;
+        //}
     }
 }

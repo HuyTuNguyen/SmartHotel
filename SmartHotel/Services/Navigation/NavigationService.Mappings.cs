@@ -14,7 +14,13 @@ namespace SmartHotel.Services.Navigation
         {
             Map<LoginViewModel, LoginView>();
             Map<MainViewModel, MainView>();
+
+            //
             Map<HomeViewModel, HomeView>();
+            Map<BookingViewModel, BookingView>();
+            Map<ConciergeViewModel, ConciergeView>();
+            Map<MyRoomViewModel, MyRoomView>();
+            Map<SuggesstionsViewModel, SuggesstionsView>();
         }
 
         private void Map<TViewModel, TView>() 

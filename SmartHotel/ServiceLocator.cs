@@ -24,9 +24,16 @@ namespace SmartHotel
             _containerBuilder = new ContainerBuilder();
 
             _containerBuilder.RegisterType<NavigationService>().As<INavigationService>();
+
+            //
             _containerBuilder.RegisterType<LoginViewModel>();
             _containerBuilder.RegisterType<MainViewModel>();
+
             _containerBuilder.RegisterType<HomeViewModel>();
+            _containerBuilder.RegisterType<BookingViewModel>();
+            _containerBuilder.RegisterType<ConciergeViewModel>();
+            _containerBuilder.RegisterType<MyRoomViewModel>();
+            _containerBuilder.RegisterType<SuggesstionsViewModel>();
         }
 
         public void Register<T, U>() where U : T

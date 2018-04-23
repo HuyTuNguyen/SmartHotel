@@ -53,6 +53,7 @@
 /Users/nguyenhuytu/Downloads/Projects/Xamarin/Git/SmartHotel/SmartHotel/bin/Debug/Xamarin.Forms.Xaml.dll.mdb
 /Users/nguyenhuytu/Downloads/Projects/Xamarin/Git/SmartHotel/SmartHotel/bin/Debug/Xamarin.Forms.Xaml.xml
 /Users/nguyenhuytu/Downloads/Projects/Xamarin/Git/SmartHotel/SmartHotel/bin/Debug/Autofac.xml
+/Users/nguyenhuytu/Downloads/Projects/Xamarin/Git/SmartHotel/SmartHotel/obj/Debug/SmartHotel.csprojResolveAssemblyReference.cache
 /Users/nguyenhuytu/Downloads/Projects/Xamarin/Git/SmartHotel/SmartHotel/obj/Debug/SmartHotel.csproj.CoreCompileInputs.cache
 /Users/nguyenhuytu/Downloads/Projects/Xamarin/Git/SmartHotel/SmartHotel/obj/Debug/SmartHotel.App.xaml.g.cs
 /Users/nguyenhuytu/Downloads/Projects/Xamarin/Git/SmartHotel/SmartHotel/obj/Debug/SmartHotel.Views.LoginView.xaml.g.cs

@@ -39,20 +39,36 @@ namespace SmartHotel.Services.Navigation
 
         public async Task NavigateToAsync(Type viewModelType, object parameter)
         {
-            var pageType = _mapping[viewModelType];
-            var page = (Page)Activator.CreateInstance(pageType);
-
-            var viewModel = page.BindingContext = ServiceLocator.Instance.Resolve(viewModelType);
-
-            if (page is LoginView)
+            try
             {
-                Application.Current.MainPage = new NavigationPage(page);
+                var pageType = _mapping[viewModelType];
+                var page = (Page)Activator.CreateInstance(pageType);
+
+                var viewModel = page.BindingContext = ServiceLocator.Instance.Resolve(viewModelType);
+
+                if (page is LoginView)
+                {
+                    Application.Current.MainPage = new NavigationPage(page);
+                }
+                else if (page is MainView)
+                {
+                    Application.Current.MainPage = page;
+                }
+                else if (Application.Current.MainPage is MainView mainView)
+                {
+                    if (mainView.Detail is NavigationPage navigationPage)
+                    {
+                        await navigationPage.PushAsync(page);
+                    }
+
+                    mainView.IsPresented = false;
+                }
+                await ((ViewModelBase)viewModel).InitializeAsync(parameter);
             }
-            else if(page is MainView)
+            catch (Exception ex)
             {
-                Application.Current.MainPage = page;
+                throw ex;
             }
-            await ((ViewModelBase)viewModel).InitializeAsync(parameter);
 
             //return Task.FromResult(0);
 

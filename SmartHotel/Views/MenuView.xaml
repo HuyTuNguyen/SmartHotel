@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="SmartHotel.Views.MenuView" xmlns:templates="clr-namespace:SmartHotel.Views.Templates">
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="SmartHotel.Views.MenuView" xmlns:templates="clr-namespace:SmartHotel.Views.Templates" xmlns:behaviors="clr-namespace:SmartHotel.Behaviors">
     <Grid RowSpacing="20" ColumnSpacing="0">
         <Grid.RowDefinitions>
             <RowDefinition Height="3*"/>
@@ -8,7 +8,7 @@
         <Image Grid.Row="0" Source="avatar" Aspect="Fill"/>
         <BoxView Grid.Row="0" BackgroundColor="Black" Opacity="0.6"/>
         <Label Grid.Row="0" Text="Hello, John" Margin="0,20" VerticalOptions="End" HorizontalOptions="Center" TextColor="White"/>
-        <ListView x:Name="MyListView" Grid.Row="1" ItemsSource="{Binding Menus}" RowHeight="60" ItemSelected="Handle_ItemSelected" SeparatorVisibility="None">
+        <ListView x:Name="MyListView" Grid.Row="1" ItemsSource="{Binding Menus}" RowHeight="60" SeparatorVisibility="None" behaviors:ItemTappedCommandListView.ItemTappedCommand = "{Binding MenuSelectedCommand}">
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <ViewCell>

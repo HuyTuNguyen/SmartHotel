@@ -11,9 +11,16 @@ namespace SmartHotel.Views
 
         public LoginView()
         {
-            //
-            InitializeComponent();
-            NavigationPage.SetHasNavigationBar(this, false);
+            try
+            {
+                //
+                InitializeComponent();
+                NavigationPage.SetHasNavigationBar(this, false);    
+            }
+            catch(Exception ex)
+            {
+                throw ex;
+            }
 
         }
 
